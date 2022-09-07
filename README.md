@@ -1,8 +1,10 @@
-Interactive Webapp to visualize upward mobility across the US at a county level. The [Upward Mobility web application](http://upwardmobility.herokuapp.com/) is built with Django and hosted on Heroku.
+# Upward Mobility
+
+Interactive webapp to visualize upward mobility across the US at a county level. The [Upward Mobility web application](http://upwardmobility.herokuapp.com/) is built with Django and hosted on Heroku.
 
 This project is used along with a [Streamlit app](https://github.com/citizenlabsgr/upwardmobility) integrated as an iframe. The data referenced and used for this project was collected, cleaned, and merged using Jupyter notebooks located in that same repository.
 
-Project setup:
+## Project Setup
 
 1. set up virtual environment outside of project
 - `python -m venv myvenv` where myvenv can be whatever name you want.
@@ -14,6 +16,8 @@ Project setup:
 5. `pip install -r requirements.txt`
 6. `python manage.py migrate`
 7. `python manage.py runserver --settings=upwardmobility.local_settings`
+
+## Contributor Instructions
 
 If you want to contribute:
 - `git pull origin main` to make sure your local version is the most updated version

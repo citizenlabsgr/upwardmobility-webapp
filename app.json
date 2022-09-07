@@ -1,0 +1,13 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "env": {
+    "DJANGO_DEBUG": {
+      "value": "true"
+    },
+    "SECRET_KEY": {
+      "generator": "secret"
+    }
+  }
+}

@@ -23,15 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DJ_DEBUG = os.getenv("DJANGO_DEBUG")
-if DJ_DEBUG == 'FALSE':
-    DEBUG = False
-else:
-    DEBUG = True
+DEBUG = os.getenv("DJANGO_DEBUG") == "true"
 
 SECRET_KEY = os.getenv("SECRET_KEY")
 
-ALLOWED_HOSTS = ['upwardmobility.herokuapp.com']
+ALLOWED_HOSTS = ['.herokuapp.com']
 
 
 # Application definition
@@ -170,4 +166,4 @@ DEFAULT_CONFIG = {
     },
 }
 
-STREAMLIT_URL = os.getenv["STREAMLIT_URL"]
+STREAMLIT_URL = os.getenv("STREAMLIT_URL")
