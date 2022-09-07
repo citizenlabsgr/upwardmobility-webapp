@@ -170,4 +170,4 @@ DEFAULT_CONFIG = {
     },
 }
 
-STREAMLIT_URL = os.getenv["STREAMLIT_URL"]
+STREAMLIT_URL = os.getenv("STREAMLIT_URL")
