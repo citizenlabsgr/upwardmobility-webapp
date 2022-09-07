@@ -1,8 +1,7 @@
-.vscode/settings.json
 **/.DS_Store
-**/__pycache__
-db.sqlite3
-
 .vscode/
 
-upwardmobility-webapp/db.sqlite3
+**/__pycache__
+myvenv
+
+db.sqlite3
