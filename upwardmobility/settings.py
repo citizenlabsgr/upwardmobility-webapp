@@ -170,4 +170,4 @@ DEFAULT_CONFIG = {
     },
 }
 
-STREAMLIT_URL = 'https://rachellcalhoun-citizenlabs-upwardmobili-streamlitappmain-2n5268.streamlitapp.com/?embedded=true'
+STREAMLIT_URL = os.getenv["STREAMLIT_URL"]
